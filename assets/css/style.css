@@ -10,7 +10,39 @@ body {
 }
 /* HEADER & NAV START */
  
+header {
+    padding: 20px 40px;
+    background-color: grey;
+    display: flex;
+}
 
+header h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    color: hotpink;
+}
+
+header a{
+    font-size: 30px;
+    color: lawngreen;
+}
+
+header nav {
+    margin: 8px 0;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul a {
+    padding: 20px 50px;
+    font-weight: lighter;
+}
 
 /* HEADER & NAV END */
 
