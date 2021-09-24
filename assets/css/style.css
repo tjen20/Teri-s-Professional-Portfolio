@@ -15,55 +15,49 @@ body {
 /* HEADER & NAV START */
  
 header {
-    height: 100px;
     padding: 20px 40px;
     background-color: lightblue;
-    display: flex; 
-    border: 10px double midnightblue;
-    border-radius: 15px;
-    align-content: center;
+    display: flex;
     justify-content: space-between;
-}
-
-header h1 {
-    font-weight: bolder;
-    font-size: 48px;
+    flex-wrap: wrap;
+    border: solid 3px midnightblue;
+    border-radius: 10px;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
     color: steelblue;
-}
-
-header a{
-    font-size: 30px;
+  }
+  
+  header a {
+    text-decoration: none;
     color: steelblue;
-}
-
-header nav {
-    margin: 8px 0;
-}
- 
-/* still have to get oriented to the right */
-
-nav {
-    /* position: fixed; */
-    top: 2vh;
-    left: 40vw;
-}
-
-header nav ul{
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
     display: flex;
     flex-wrap: wrap;
-    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
-}
-
-header nav ul a:hover {
-    padding: 20px 50px;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
     font-weight: lighter;
-    text-decoration: none;
-}
+    font-size: 1.55vw;
+  }
 
 /* HEADER & NAV END */
 
 /* HERO IMG */
+
 .hero {
     background-image: url('../images/hero5.jpg');
     background-size: cover;
@@ -72,7 +66,7 @@ header nav ul a:hover {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    height: 500px;
+    height: 400px;
     color: white;
     border-radius: 15px;
 }
@@ -127,24 +121,41 @@ header nav ul a:hover {
 
 
 
-/* FOOTER CONTACT ME START */
+/* FOOTER START */
 
 footer {
-    background-color: lightblue;
-    padding: 20px 20px;
-    border: 10px double midnightblue;
-    border-radius: 15px;
-}
-
-footer ul {
+    background: lightblue;
+    padding: 20px 40px;
+    border: solid 3px midnightblue;
+    border-radius: 10px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
     list-style: none;
+  }
+  
+  footer h2 {
     color: steelblue;
-    font-size: 20px;
-}
- 
+    font-size: 30px;
+    margin: 0;
+  }
 
-/* FOOTER CONTACT ME END */
+/* FOOTER END */
+
+
+/* MEDIA QUERIES FOR SMALLER SCREENS */ 
+
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
+}
