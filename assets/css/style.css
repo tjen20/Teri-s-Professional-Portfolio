@@ -11,7 +11,10 @@
     margin: 30px;
   }
   
-  
+  section {
+  padding: 30px 0px 30px 0px;
+  }
+
 /* HEADER & NAV START */
   header {
     padding: 20px 40px;
@@ -21,6 +24,7 @@
     flex-wrap: wrap;
     border: solid 3px midnightblue;
     border-radius: 10px;
+    text-align: center;
   }
   
   header h1 {
@@ -58,7 +62,7 @@
 
 /* JUMBOTRON START */
 .hero {
-  background-image: url('../images/hero5.jpg');
+  background-image: url('../images/hero.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -80,19 +84,69 @@
 
  
 /* ABOUT ME START */
+.about {
+    border: midnightblue 3px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
 
+.about img {
+    max-width: 450px;
+    border-radius: 10px;
+    border: midnightblue 3px solid;
+}
 /* ABOUT ME END */
 
 
 
 /* MY WORK START */
+.work {
+    border: midnightblue 3px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
 
+.work a {
+ text-decoration: none;
+ color: white;
+ border-radius: 10px;
+ padding: 50px;
+}
+
+.images{
+    padding: 50px;
+}
+
+.run{
+    background-image: url('../images/tech1.jpg');
+    padding: 20px;
+}
+
+.horiseon {
+    background-image: url('../images/tech2.jpg');
+    
+}
+
+.robot {
+    background-image: url('../images/tech6.jpg');
+   
+}
 /* MY WORK END */
 
 
 
 /* CONTACT ME START */
-
+.contact-sec {
+   border: midnightblue 3px solid;
+   border-radius: 10px;
+    
+}
+.contact{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
 /* CONTACT ME END */
 
 
