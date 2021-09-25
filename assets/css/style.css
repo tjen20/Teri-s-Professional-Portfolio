@@ -2,19 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
+  }
+  
+  body {
     background-color: lightcyan;
-    font-family: Arial, Helvetica, sans-serif;
     color: midnightblue;
-    margin: 50px;
-}
-
-
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+  }
+  
+  
 /* HEADER & NAV START */
- 
-header {
+  header {
     padding: 20px 40px;
     background-color: lightblue;
     display: flex;
@@ -53,45 +52,34 @@ header {
     font-weight: lighter;
     font-size: 1.55vw;
   }
-
 /* HEADER & NAV END */
 
-/* HERO IMG */
 
+
+/* JUMBOTRON START */
 .hero {
-    background-image: url('../images/hero5.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    height: 400px;
-    color: white;
-    border-radius: 15px;
+  background-image: url('../images/hero5.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border-radius: 10px;
+  border: 3px solid midnightblue;
 }
 
-.hero img {
-    border: 100px double midnightblue;
+.hero-cta {
+  color: honeydew;
+  width: 60%;
+  font-size: 40px;
+  text-shadow: black 20px;
 }
+/* JUMBOTRON END */
 
+
+ 
 /* ABOUT ME START */
-
-.Teri {
-    padding: 60px;
-}
-
-.Teri img {
-    display: block;
-    margin: 10px auto;
-    max-width: 450px;
-    float: left;
-    border-radius: 10px;
-}
-
-. {
-
-}
 
 /* ABOUT ME END */
 
@@ -99,58 +87,43 @@ header {
 
 /* MY WORK START */
 
-.My-Work img {
-    max-height: 350px;
-    max-width: 350px;
-    padding: 50px;
-    border-radius: 10px;
-}
-
-.card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 15px 15px 20px 15px rgba(231, 9, 9, 0.2);
-  }
-
-  .card:hover {
-    box-shadow: 30px 30px 16px 0 rgba(0,0,0,0.2);
-  }
-
 /* MY WORK END */
 
 
 
+/* CONTACT ME START */
+
+/* CONTACT ME END */
 
 
-/* FOOTER START */
 
+
+/* FOOTER STYLES START */
 footer {
-    background: lightblue;
-    padding: 20px 40px;
-    border: solid 3px midnightblue;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    list-style: none;
-  }
-  
-  footer h2 {
-    color: steelblue;
-    font-size: 30px;
-    margin: 0;
-  }
+  background: lightblue;
+  padding: 20px 40px;
+  border: solid 3px midnightblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style: none;
+}
 
-/* FOOTER END */
-
+footer h2 {
+  color: steelblue;
+  font-size: 30px;
+  margin: 0;
+}
+/* END FOOTER STYLES */
 
 /* MEDIA QUERIES FOR SMALLER SCREENS */ 
-
 @media screen and (max-width: 980px) {
-    header {
-      padding-bottom: 0;
-      justify-content: center;
-    }
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
 
 @media screen and (max-width: 768px) {
 
