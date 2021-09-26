@@ -17,8 +17,6 @@
   
   h3 {
     font-size: 30px;
-    border-right: 3px solid midnightblue;
-    width: 12%;
   }
   
   /* HEADER & NAV START */
@@ -90,7 +88,6 @@
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -100,18 +97,11 @@
   .Teri img {
     max-width: 450px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 8px 8px 0 0 rgba(0,0,0,0.2);
     flex: 30%;
   }
+
   
-  .Teri img {
-    flex: 1 12%;
-    margin-right: 20px;
-  }
-  
-  .info {
-    flex: 70%;
-  }
   
   
   /* ABOUT ME END */
