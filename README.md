@@ -14,6 +14,4 @@ https://tjen20.github.io/Teri-s-Professional-Portfolio/
 Made with ❤️ by Teri Jensen
 
 ## Visual
-![site image](assets/images/screenshot.jpg)
-
-![site image]()
+![Screenshot](https://user-images.githubusercontent.com/89708940/134826156-2b854bd7-2942-4e78-867b-d3389e153b7a.jpg)
